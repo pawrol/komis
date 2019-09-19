@@ -1,0 +1,5 @@
+<?php
+$sql_conn = mysql_connect('localhost', 'root', 'krasnal') or die('Nie mo¿na nawi±zaæ po³±czenia z baza');
+mysql_select_db('komis') or die("Nie uda³o siê wybraæ bazy danych");;
+mysql_query("SET NAMES 'utf8'");
+?>
